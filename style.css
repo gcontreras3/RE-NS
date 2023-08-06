@@ -73,6 +73,10 @@ h1, h3 {
 
 /* Blog Section Starts Here */
 .blog-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
     height: 100px;
     border: 1px solid white;
 }
