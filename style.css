@@ -35,6 +35,11 @@ h1, h3 {
     height: 400px;
     border: 1px solid white;
 }
+.hero-container p {
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid white;
+}
 .about-me {
     display: flex;
     justify-content: space-around;
@@ -51,5 +56,17 @@ h1, h3 {
 .portfolio-section {
     width: full-width;
     height: 200px;
+    border: 1px solid white;
+}
+
+
+
+
+
+
+/* Footer section starts here */
+
+footer {
+    height: 100px;
     border: 1px solid white;
 }
