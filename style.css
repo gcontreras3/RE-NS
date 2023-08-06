@@ -44,6 +44,7 @@ h1, h3 {
     display: flex;
     justify-content: space-around;
 }
+
 .about-me-para {
     width: 500px;
 }
@@ -53,9 +54,26 @@ h1, h3 {
     height: 200px;
     border: 1px solid white;
 }
+
+/* Portfolio Section Starts Here */
 .portfolio-section {
     width: full-width;
     height: 200px;
+    border: 1px solid white;
+}
+.portfolio-section p {
+    text-align: center;
+}
+
+
+/* Portfolio Section Ends Here */
+
+
+
+
+/* Blog Section Starts Here */
+.blog-section {
+    height: 100px;
     border: 1px solid white;
 }
 
@@ -63,6 +81,7 @@ h1, h3 {
 
 
 
+/* Blog Section Ends Here */
 
 /* Footer section starts here */
 
@@ -70,3 +89,7 @@ footer {
     height: 100px;
     border: 1px solid white;
 }
+
+
+
+/* Footer Section ends here */
