@@ -35,3 +35,21 @@ h1, h3 {
     height: 400px;
     border: 1px solid white;
 }
+.about-me {
+    display: flex;
+    justify-content: space-around;
+}
+.about-me-para {
+    width: 500px;
+}
+
+#picture-about-me {
+    width: 400px;
+    height: 200px;
+    border: 1px solid white;
+}
+.portfolio-section {
+    width: full-width;
+    height: 200px;
+    border: 1px solid white;
+}
