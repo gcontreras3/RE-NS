@@ -1,5 +1,5 @@
 * {
-    background-color: black;
+    background-color: #000000;
     margin: 0;
     color: white;
 }
@@ -10,8 +10,9 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: white;
-    height: 150px;
+    align-items: center;
+    background-color: #FB2576;
+    height: 125px;
 }
 .logo-header {
     width: 100px;
@@ -90,6 +91,7 @@ h1, h3 {
 /* Footer section starts here */
 
 footer {
+    background-color: #FB2576;
     height: 100px;
     border: 1px solid white;
 }
