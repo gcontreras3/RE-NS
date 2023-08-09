@@ -19,14 +19,24 @@ body {
     height: 75px;
 }
 .nav-bar {
+    background-color: #FB2576;
+    width: 400px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 300px;
 }
+
 .nav-bar li {
-    background-color: white;
-    color: black;
+    background-color: #FB2576;
+    color: white;
     list-style-type: none;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar a {
+    background-color: #FB2576;
+    text-decoration: none;
 }
 h1, h3 {
     text-align: center;
