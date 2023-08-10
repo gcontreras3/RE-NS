@@ -15,29 +15,40 @@ body {
     height: 125px;
 }
 .logo-header {
+    background-color: transparent;
     width: 100px;
     height: 75px;
 }
+/* Nav Bar Styles Starts Here */
 .nav-bar {
     background-color: #FB2576;
     width: 400px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding-right: 300px;
+    justify-content: space-evenly;
+    padding-right: 100px;
 }
 
-.nav-bar li {
-    background-color: #FB2576;
-    color: white;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 .nav-bar a {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
     background-color: #FB2576;
     text-decoration: none;
+    width: 200px;
+    height: 50px;
 }
+.nav-bar a:hover {
+    background-color: black;
+    border: 2px solid white;
+}
+
+/* Nav Bar Styles Ends Here */
+
+
 h1, h3 {
     text-align: center;
 }
